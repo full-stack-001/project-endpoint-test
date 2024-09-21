@@ -39,15 +39,6 @@ class MediaController extends Controller
         $this->projectRepository = $projectRepository;
         $this->mediaService = $mediaService;
     }
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        
-    }
-
-
     
     /**
      * Summary of store
@@ -70,19 +61,6 @@ class MediaController extends Controller
     }
 
     
-    
-    public function show()
-    {
-       
-    }
-
-    
-    public function update()
-    {
-       
-    }
-
-   
     /**
      * Summary of destroy
      * @param \App\Models\Media $media
